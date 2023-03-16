@@ -4,5 +4,5 @@ UML-diagrammer brukes for å gi en oversikt og plan til et objektorientert pytho
 
 ## Eksempler
 
-![alt text](bilder/uml.png)
+![alt text](uml.png)
 
