@@ -1,6 +1,10 @@
 from random import randint
+import pygame as pg
 
 class Stolpe:
+    """ Klasse som lager hindringene i hoppespillet
+    
+    """
     def __init__(self):
         self._x=300
         self._hoyde=randint(20,40)

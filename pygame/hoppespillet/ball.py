@@ -1,6 +1,9 @@
 import pygame as pg
 
 class Spiller:
+    """Klasse som tegner ballen i hoppespillet
+    
+    """
     def __init__(self):
         self._x=20
         self._y=20
