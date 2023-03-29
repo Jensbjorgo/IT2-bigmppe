@@ -1,19 +1,19 @@
-from random import randint
-import pygame as pg
 
-class Stolpe:
+import pygame
+import random
+
+class Hinder:
     """ Klasse som lager hindringene i hoppespillet
     
     """
-    def __init__(self):
-        self._x=300
-        self._hoyde=randint(20,40)
-        self._y=500-self._hoyde
-        self._bredde=10
+    def __init__(self, bredde_verden, høyde_verden):
+        self._høyde = random.randint(50, 100)
+        self._bredde = 20
+        self._y = høyde_verden - self._høyde
+        self._x = bredde_verden
 
-    def flytt_venstre(self):
-        self._x-=1
-
-
-    def tegn(self,vindu):
-        pg.draw.rect(vindu, (30,70,125),(self._x,self._y,self._bredde,self._hoyde))
+    def tegn(self, vindu):
+        pygame.draw.rect(vindu, (0,0,0), (self._x, self._y, self._bredde, self._høyde))
+    
+    def flytt(self):
+        self._x -= 2

@@ -1,50 +1,54 @@
-import pygame as pg
-from ball import Spiller
-from stolpe import Stolpe
-import time
-
-spiller1=Spiller()
-hindere=[]
-
-for i in range(3):
-    nytt_hinder=Stolpe()
-    hindere.append(nytt_hinder)
-
-
-pg.init()
-VINDU_BREDDE = 500
-VINDU_HOYDE = 500
-vindu=pg.display.set_mode([VINDU_BREDDE,VINDU_HOYDE])
-
-fortsett=True
-while fortsett:
-    for event in pg.event.get():
-        if event.type ==pg.QUIT:
-            fortsett = False
-
-    vindu.fill((150,25,105)) #farger bakgrunnen
-
-    for hinder in hindere:
-        hinder.flytt_venstre()
-        hinder.tegn(vindu)
-
-
 
     # pg.draw.rect(vindu, (30,70,125),(0,0,200,100))
     #pg.draw.rect(vindu, (r,g,b),(xpos,ypos,bredde,høyde))
-
-    spiller1.tegn(vindu)
     # pg.draw.circle(vindu,(r,g,b),(xpos,ypos),radius)
+import pygame
+from ball import Spiller
+from stolpe import Hinder
 
-    ballrect = spiller1.move((speedX,speedY))
-    if ballrect.left < 0 or ballrect.right > width:
-        speedX = -speedX
-    if ballrect.top < 0 or ballrect.bottom > height:
-        speedY = -speedY
+# pygame setup
+pygame.init()
+bredde = 1280 # bredden på vinduet
+høyde = 720 # høyden på vinduet
+vindu = pygame.display.set_mode((bredde, høyde))
+klokke = pygame.time.Clock()
+running = True
+frames = 0
 
+spiller1 = Spiller(høyde)
+hindere = []
 
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
 
-    pg.display.flip() #oppdaterer pygame vinduet
-    time.sleep(1/60)
+    
+    vindu.fill("purple") #farger bakgrunnen
 
+    if frames == 180:
+    # Hvis det har gått 180 frames / 3 sekunder:
+        nytt_hinder = Hinder(bredde, høyde) # lag et nytt hinder-objekt
+        hindere.append(nytt_hinder)  # legg det nye hinderet i listen over hindere
+        frames = 0 # sett frames til å være 0
 
+    # Flytter og tegner hindere:
+    for hinder in hindere:
+    # for hvert hinder i listen hindere:
+        hinder.flytt()
+        hinder.tegn(vindu)
+
+    # Hopper hvis bruker trykker på mellomrom:
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_SPACE]:
+        spiller1.hopp()
+
+    spiller1.fall() # spiller faller nedover
+    spiller1.tegn(vindu) # tegner spiller
+
+    frames += 1 # øker frames med 1
+
+    pygame.display.flip() #oppdaterer pygame vinduet
+    klokke.tick(60)  # begrenser FPS to 60
+
+pygame.quit()
