@@ -5,20 +5,20 @@ class Hest:
     """ Klasse som lager hestene i hestespillet
     
     """
-    def __init__(self,y, farge, valg):
+    def __init__(self,y, farge):
         self.score=0
         self._x=1
         self._y=y
         self.farge=farge
-        self._valg=valg
-    def vinn(self):
-        pass
+    def vinn(self,vindu):
+        vindu.fill(self.farge)
 
-    def flytt_hoyre(self):
-        if self._x<1200:
-            self._x+=2
+    def flytt_hoyre(self,vindu):
+        
+        if self._x>1200:
+            self._x+=0
         else:
-            self.vinn()
+            self._x+=2
 
     def tegn(self,vindu):
-        pg.draw.circle(vindu,(self.farge,100,0),(self._x,self._y),25)
+        pg.draw.circle(vindu,(self.farge),(self._x,self._y),25)
