@@ -12,8 +12,7 @@ class Hest:
         self.farge=farge
         self._valg=valg
     def vinn(self):
-        if self._valg=="ja":
-            self.score+=1
+        pass
 
     def flytt_hoyre(self):
         if self._x<1200:
