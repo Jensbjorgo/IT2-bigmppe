@@ -1,4 +1,4 @@
-#vern mot kjøretidsfeil og logiske feil i programmer
+# vern mot kjøretidsfeil og logiske feil i programmer
 
 håndtering av kjøretidsfeil i python gjøres med nøkkelordene try og except
 python forsøker å kjøre kodeblokken under `try`, hvis python får en feilmelding vil den kjøre kodeblokken so ligger under `except:`

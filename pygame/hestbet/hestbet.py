@@ -30,7 +30,11 @@ vinn = font.render("den beste hesten vant", True,(100,50,1),(10,200,50))
 textRect = text.get_rect()
 textRect.center = (1280 // 2, 720 // 2)
 
-
+# Lag en start-knapp
+start_button_rect = pygame.Rect(200, 200, 80, 40)
+start_button_color = (0, 255, 0)
+font = pygame.font.Font('freesansbold.ttf', 32)
+start_text = font.render('Start', True, (0, 0, 0))
 
 
 while running:
@@ -39,7 +43,6 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-
    
     screen.fill("white")
 
@@ -67,16 +70,6 @@ while running:
         #screen.fill(hest3.farge)
         screen.blit(text3,(1280//2,300))
 
-
-    
-        
-
-    # LAG SPILLET DIT HER:
-
-    #for hest in hester:
-    #    hest.tegn(screen)
-
-    # flip() the display to put your work on screen
     pygame.display.flip()
 
     clock.tick(60)  # limits FPS to 60
