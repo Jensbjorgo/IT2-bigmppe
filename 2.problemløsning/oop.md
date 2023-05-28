@@ -5,6 +5,9 @@ Programmering der man bruker klasser, arv, objekter og metoder.
 
 - [Hoppespill](https://github.com/Jensbjorgo/IT2-bigmppe/tree/main/pygame/hoppespillet)
 
+## Eksempel 2
+- [Storting Fantasy](https://github.com/Jensbjorgo/IT2-bigmppe/Stortingfantasy)
+
 ## Klasse
 En klasse er en mal eller oppskrift på et objekt.
 

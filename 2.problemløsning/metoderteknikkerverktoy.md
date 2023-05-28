@@ -20,3 +20,4 @@ Lansering: Programvaren er godkjent og kan lanseres.
 Vedlikehold: Programvaren vedlikeholdes. Feil rettes opp o.l.
 
 ## Testdrevet utvikling
+Man skriver først en ønsket funksjonalitet. Deretter skriver man koden og tester at den funker som planlagt. Det bidrar til å sikre koden ved ofte testing og eventuelle feil blir oppdaget fort og lett og finne hvor feilen ligger. 
