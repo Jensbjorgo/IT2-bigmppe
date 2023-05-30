@@ -17,4 +17,4 @@ print(data)
 
 ## Eksempel Csv fil
 
-- [Innhenting-av-data](https://github.com/Jensbjorgo/IT2-bigmppe/tree/main/1.samfunn og systemer/Standarder for lagring, utveksling og sikring av data/folketetthet.py)
+- [Innhenting-av-data](https://github.com/Jensbjorgo/IT2-bigmppe/blob/main/1.samfunn%20og%20systemer/Standarder%20for%20lagring%2C%20utveksling%20og%20sikring%20av%20data/folketetthet.py)

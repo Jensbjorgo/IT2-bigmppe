@@ -6,8 +6,9 @@ For å ikke sitte fast når du skal programmere er det viktig å kunne bruke alt
 
 
 ## Forskjellige måter å åpne en csv-fil
-python````
 
+
+```python
 fil = open("tentamenmai/pokemon.csv") # åpner filen pokemon.csv
 data = fil.read() # leser innholdet i filen
 linjer = data.split("\n") # splitter innholdet på linjeskift, slik at linjer blir en liste med linjer
@@ -25,7 +26,7 @@ with open(filnavn,encoding="iso8859-1") as fil: # Åpner filen
 with open(filnavn,encoding="iso8859-1") as fil: # Åpner filen
     data = csv.DictReader(fil, delimiter=",")   # Leser inn data som csv men i ordbok
 
-
-
-
 ```
+
+
+
