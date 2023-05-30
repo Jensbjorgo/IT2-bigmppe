@@ -11,3 +11,7 @@ for å tegne grafer i python kan vi bruke biblioteket `matplotlib`
 > installere matplotlib: `pip3 install matplotlib`
 
 ## lage nettsider (html/flask)
+
+Her har jeg funnet data i form av en json fil som jeg bruker som database for nettsiden min. 
+
+- [Nettside](https://github.com/Jensbjorgo/IT2-bigmppe/tree/main/it2-smidig-webapp)
