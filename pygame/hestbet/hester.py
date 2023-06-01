@@ -22,3 +22,5 @@ class Hest:
 
     def tegn(self,vindu):
         pg.draw.circle(vindu,(self.farge),(self._x,self._y),25)
+    def bilde(self,bilde):
+        pg.image.load(bilde).convert()

@@ -51,6 +51,9 @@ while running:
     hest1.tegn(screen)
     hest2.tegn(screen)
     hest3.tegn(screen)
+    # hest1.bilde("pygame/hestbet/images.png")
+    # hest2.bilde("pygame/hestbet/the-kentucky-derby-horse-racing-run-for-the-roses-png-favpng-FZyDePXaffzgMMUxSz6VFyXh3.jpg")
+    # hest3.bilde("pygame/hestbet/Unknown.png")
 
     tall= randint(1,3)
     if tall==1:
