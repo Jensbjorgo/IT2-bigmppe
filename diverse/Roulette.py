@@ -42,7 +42,6 @@ class Pung:
 
 
 
-
 fortsett=True
 pung1= Pung("Jens",200)
 
