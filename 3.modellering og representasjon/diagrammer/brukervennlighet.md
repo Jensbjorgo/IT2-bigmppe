@@ -7,3 +7,8 @@ Her har jeg designet en webapp som er svært lett å bruke. Programmet er såpas
 
 - [Trenings Nettside](https://github.com/Jensbjorgo/it2-smidig-webapp)
 
+## Eksempel 2
+Her har jeg laget en nettsiden der det meste på siden er interaktivt og med sterke farger. Det gjør at brukeren blir mer engasjert og og brukeropplevelsen mye bedre enn om den hadde vært veldig lite interaktiv og med kjedlige farger. 
+
+- [Watford Nettside](https://github.com/Jensbjorgo/IT2-bigmppe/tree/main/diverse/Watford)
+

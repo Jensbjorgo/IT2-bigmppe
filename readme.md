@@ -5,7 +5,7 @@
 ##emner
 
 -samfunn og systemer
-  - [ -etiske dilemma og konsekvenser av bruk av IT](https://github.com/Jensbjorgo/IT2-bigmppe/tree/main/1.samfunn og systemer/Etikk.md)
+  - -etiske dilemma og konsekvenser av bruk av IT
   -standarer for lagring, utveksling og sikring av data
   -brukervennlighet i informasjonssystemer
 -problemløsning

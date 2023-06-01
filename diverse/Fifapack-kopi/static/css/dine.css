@@ -1,0 +1,141 @@
+body{
+    background-color: #0F0A0A;
+    margin: 0%;
+    padding: 0px;
+    border-width: 10px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+      to bottom,#0F0A0A,#F5EFED 
+    ) 1 100%;
+}
+
+#tilbake{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+p{
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+h1{
+   color: antiquewhite;
+   text-align: center;
+}
+
+#knapp{
+    font-size: larger;
+    width: 75px;
+    transform: translate(-50%, -50%);
+}
+
+#kjott{
+    display: block;
+    background-color: #fff;
+    margin-left: 30px;
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ff003b;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+#kjott span{
+    position: relative;
+  z-index: 2;
+}
+
+#kjott:after{
+    position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+
+}
+
+#kjott:hover{
+    color: #fff;
+}
+
+#kjott:hover:after{
+    width: 100%;
+}
+
+
+
+/*popup ad*/
+
+#scam{
+    font-size: x-large;
+    color: #333;
+}
+
+#blackout {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+  }
+
+#reklame{
+    padding: 15px;
+    color: #F5EFED;
+    text-decoration: none;
+    position: absolute;
+    right: 80px;
+    top: 650px;
+    font-size: 70px;
+    border-width: 10px;
+    border-color: #F5EFED;
+    border-style: dotted;
+}
+  #box {
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    border: 5px dotted #0000cc;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+  }
+  #blackout:target {display: block;}
+  .close {
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 20pt;
+    cursor:pointer;
+  }
+  .close:hover {background: #e6e6ff;}
+
+  #thor{
+      height: 200px;
+  }

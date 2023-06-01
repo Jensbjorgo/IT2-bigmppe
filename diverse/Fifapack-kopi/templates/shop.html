@@ -1,0 +1,55 @@
+<script defer src="{{url_for("static", filename="js/java.js")}}"></script>
+<link rel="stylesheet" href={{url_for('static', filename="css/style.css")}}>
+
+<a id="tilbake" href="/">Tilbake</a>
+<h1>Du har {{bank}} coins!</h1>
+
+<h1>Kjøp spillere</h1>
+
+
+
+<h1 class="vindu">
+    <img src="{{kortliste[3]["player_image"]}}" alt="">
+</h1>
+
+<h1>
+    {{kortliste[3]["player_name"]}} - {{kortliste[3]["overall"]}}
+</h1>
+
+<form action="/add">
+    <button class="kjop" type="submit">Kjøp ;-10 000</button>
+</form>
+
+<h1>{{fattig}}</h1>
+
+
+
+<h1 class="vindu">
+    <img src="{{kortliste[749]["player_image"]}}" alt="">
+</h1>
+
+<h1>
+    {{kortliste[749]["player_name"]}} - {{kortliste[749]["overall"]}}
+</h1>
+
+<form action="/add2">
+    <button class="kjop" type="submit">Kjøp ;-50 000</button>
+</form>
+
+<h1>{{fattig2}}</h1>
+
+
+
+<h1 class="vindu">
+    <img src="{{kortliste[275]["player_image"]}}" alt="">
+</h1>
+
+<h1>
+    {{kortliste[275]["player_name"]}} - {{kortliste[275]["overall"]}}
+</h1>
+
+<form action="/add3">
+    <button class="kjop" type="submit">Kjøp ;-200</button>
+</form>
+
+<h1>{{fattig3}}</h1>

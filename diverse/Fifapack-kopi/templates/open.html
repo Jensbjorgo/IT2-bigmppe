@@ -1,0 +1,102 @@
+<link rel="stylesheet" href={{url_for('static', filename="css/open.css")}}>
+<script defer src="{{url_for("static", filename="js/java.js")}}"></script>
+
+<a href="/"><button id="tilbake">Tilbake</button></a>
+
+<body>
+
+    <div class="loader-wrapper" id="button">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <p>
+        <img src="{{kortliste[kortnummer]["player_image"]}}" alt="">
+    </p>
+    
+    <h1>
+        {{kortliste[kortnummer]["player_name"]}} - {{kortliste[kortnummer]["overall"]}}
+    </h1>
+    
+    <h1>
+        {{kortliste[kortnummer]["position"]}} - {{kortliste[kortnummer]["club"]}}
+    </h1>
+    
+    <h1>
+        {{kortliste[kortnummer]["nationality"]}} - <div> <img src="{{kortliste[kortnummer]["nationality_image"]}}" alt=""> </div>
+    </h1>
+    
+    <p>
+          -----------
+    </p>
+    <p>
+        <img src="{{kortliste[kortnummer2]["player_image"]}}" alt="">
+    </p>
+    <h1>
+        {{kortliste[kortnummer2]["player_name"]}} - {{kortliste[kortnummer2]["overall"]}}
+    </h1>
+    
+    <h1>
+        {{kortliste[kortnummer2]["position"]}} - {{kortliste[kortnummer2]["club"]}}
+    </h1>
+    
+    <h1>
+        {{kortliste[kortnummer2]["nationality"]}} - <div> <img src={{kortliste[kortnummer2]["nationality_image"]}} alt=""> </div>
+    
+    </h1>
+    
+    <p>
+        -----------
+    </p>
+    
+    <p>
+        <img src="{{kortliste[kortnummer3]["player_image"]}}" alt="">
+    </p>
+    
+    <h1>
+        {{kortliste[kortnummer3]["player_name"]}} - {{kortliste[kortnummer3]["overall"]}}
+    </h1>
+    
+    <h1>
+        {{kortliste[kortnummer3]["position"]}} - {{kortliste[kortnummer3]["club"]}}
+    </h1>
+    
+    <h1>
+        {{kortliste[kortnummer3]["nationality"]}} - <div> <img src="{{kortliste[kortnummer3]["nationality_image"]}}" alt=""> </div>
+    
+    </h1>
+    
+    
+    <p>
+          -----------
+    </p>
+    
+    <p>
+        <img src="{{kortliste[kortnummer4]["player_image"]}}" alt="">
+    </p>
+    
+    
+    <h1>
+        {{kortliste[kortnummer4]["player_name"]}} - {{kortliste[kortnummer4]["overall"]}}
+    </h1>
+    
+    <h1>
+        {{kortliste[kortnummer4]["position"]}} - {{kortliste[kortnummer4]["club"]}}
+    </h1>
+    
+    <h1>
+        {{kortliste[kortnummer4]["nationality"]}} - <div> <img src="{{kortliste[kortnummer4]["nationality_image"]}}" alt=""> </div>
+    
+    </h1>
+
+    
+    
+  
+     
+    </body>
+  </html>
+
+</body>
+
+
+
+

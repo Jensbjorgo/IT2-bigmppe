@@ -1,0 +1,345 @@
+#bane{
+    width: 100%;
+    display: block;
+}
+body{
+    margin: 0cm;
+    background-image: url(bilder/ban5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#striker{
+    position: absolute;
+    top: 20px;
+    left: 43%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#striker:hover{
+   transform: scale(1.5) 
+}
+
+#rw{
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#rw:hover{
+   transform: scale(1.5) 
+}
+
+#lw{
+    position: absolute;
+    top: 40%;
+    left: 40px;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#lw:hover{
+  transform: scale(1.5)  
+}
+
+#lcm{
+    position: absolute;
+    top: 120%;
+    left: 15%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#lcm:hover{
+    transform: scale(1.5)  
+}
+
+#rcm{
+    position: absolute;
+    top: 120%;
+    right: 15%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#rcm:hover{
+   transform: scale(1.5) 
+}
+
+#cdm{
+    position: absolute;
+    top: 160%;
+    left: 43%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#cdm:hover{
+  transform: scale(1.5)  
+}
+
+#lb{
+    position: absolute;
+    top: 220%;
+    left: 5%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#lb:hover{
+  transform: scale(1.5)  
+}
+
+#rb{
+    position: absolute;
+    top: 220%;
+    right: 5%;
+    width: 15%;
+    transition: 0.3s;
+
+}
+#rb:hover{
+  transform: scale(1.5)  
+}
+
+#rcb{
+    position: absolute;
+    top: 240%;
+    right: 30%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#rcb:hover{
+  transform: scale(1.5)  
+}
+
+#lcb{
+    position: absolute;
+    top: 240%;
+    left: 30%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#lcb:hover{
+    transform: scale(1.5);
+}
+
+#gk{
+    position: absolute;
+    top: 270%;
+    left: 43%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+
+#gk:hover{
+    transform: scale(1.5);
+}
+
+/* nav bar */
+
+#mySidenav a {
+   
+    position: absolute;
+    left: -80px;
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    
+    border-radius: 0 5px 5px 0; 
+  }
+
+#mySidenav{
+    position: fixed;
+    top: 20%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+ 
+  #HOME {
+    top: 20px;
+    background-color:#FBEE23 ;
+    color: black;
+  }
+  
+  #NEWS {
+    top: 80px;
+    background-color: black; 
+    color: white;
+  }
+  
+  #SHOP {
+    top: 140px;
+    background-color: #FBEE23; 
+    color: black;
+  }
+  
+  #MATCH {
+    top: 200px;
+    background-color:black;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:600px ) { 
+
+      #striker{
+    position: absolute;
+    top: 20px;
+    left: 43%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#striker:hover{
+   transform: scale(1.5) 
+}
+
+#rw{
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#rw:hover{
+   transform: scale(1.5) 
+}
+
+#lw{
+    position: absolute;
+    top: 15%;
+    left: 40px;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#lw:hover{
+  transform: scale(1.5)  
+}
+
+#lcm{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#lcm:hover{
+    transform: scale(1.5)  
+}
+
+#rcm{
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#rcm:hover{
+   transform: scale(1.5) 
+}
+
+#cdm{
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#cdm:hover{
+  transform: scale(1.5)  
+}
+
+#lb{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#lb:hover{
+  transform: scale(1.5)  
+}
+
+#rb{
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    width: 15%;
+    transition: 0.3s;
+
+}
+#rb:hover{
+  transform: scale(1.5)  
+}
+
+#rcb{
+    position: absolute;
+    top: 110%;
+    right: 25%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#rcb:hover{
+  transform: scale(1.5)  
+}
+
+#lcb{
+    position: absolute;
+    top: 110%;
+    left: 25%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+#lcb:hover{
+    transform: scale(1.5);
+}
+
+#gk{
+    position: absolute;
+    top: 120%;
+    left: 43%;
+    width: 15%;
+    transition: 0.3s;
+}
+
+
+#gk:hover{
+    transform: scale(1.5);
+}
+
+  }

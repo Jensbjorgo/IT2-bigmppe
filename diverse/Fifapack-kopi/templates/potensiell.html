@@ -1,0 +1,60 @@
+<a id="tilbake" href="/">Tilbake</a>
+
+<link rel="stylesheet" href={{url_for('static', filename="css/style.css")}}>
+
+
+
+<div id="blackout">
+    <div id="box">
+      <p id="scam">
+        Dagens spiller er Thor Coward!
+        Ta en tur til shoppen da vel!
+      </p>
+      <p>
+        <img id="thor" src="https://res.cloudinary.com/aidbuilder/image/upload/c_limit,h_2048,w_2048/v20141105215015/collection_images/LIVE/COL-5-1697.jpg" alt="">
+      </p>
+      <br>
+      <a href="#" class="close">Lukk vindu</a>
+    </div>
+  </div>
+   
+  <a id="reklame" href="#blackout">Sjekk dagens spiller</a>
+
+
+<div id="del">
+    <div>
+        <form action="/po/Icons"><button type="submit">ICONS</button></form>
+    </div>
+    
+    <div>
+        <form action="/po/Premier League"><button type="submit">Premier League</button></form>
+    </div>
+    <div>
+        <form action="/po/Ligue 1 Conforama"><button type="submit">Ligue 1</button></form>
+    </div>
+    
+    <div>
+        <form action="/po/Serie A TIM"><button type="submit">Serie A</button></form>
+    </div>
+
+    <div>
+        <form action="/po/Bundesliga"><button type="submit">Bundesliga</button></form>
+    </div>
+</div>
+
+{% block innhold %}
+    <p>
+        <ol>
+            {% for kort in kortliste %}
+                <li>
+
+                    {{kort["player_name"]}}- {{kort["club"]}} - {{kort["overall"]}}
+
+
+                </li>
+            {% endfor %}
+        </ol>
+    </p>
+{% endblock %}
+
+

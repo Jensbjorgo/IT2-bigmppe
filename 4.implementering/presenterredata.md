@@ -15,3 +15,8 @@ for å tegne grafer i python kan vi bruke biblioteket `matplotlib`
 Her har jeg funnet data i form av en json fil som jeg bruker som database for nettsiden min. 
 
 - [Trenings Nettside](https://github.com/Jensbjorgo/it2-smidig-webapp)
+
+## Eksempel 2
+Her har jeg laget en interaktiv nettsiden med flask der jeg henter ut data fra en json fil og presenterer det i en html nettside. 
+
+- [Watford Nettside](https://github.com/Jensbjorgo/IT2-bigmppe/tree/main/diverse/Fifapack-kopi)

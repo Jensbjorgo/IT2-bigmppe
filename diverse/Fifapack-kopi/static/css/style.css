@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+    border-bottom:5px solid #F5EFED;
+
+}
+
+
+
+li{
+    font-size: xx-large;
+    text-decoration: none;
+    color: #F5EFED;
+    margin-left: 35px;
+
+}
+
+img{
+    max-width: 400px;
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+ol{
+    text-decoration: none;
+}
+
+body{
+    background-color:#0F0A0A;
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+      to bottom,#0F0A0A,#F5EFED 
+    ) 1 100%;
+}
+
+#pakke{
+    margin: 0;
+    width: 300px;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 2px;
+    opacity: 0.2;
+    transition: 1s;
+}
+
+#pakke[src=""] {
+    display:none;
+}
+
+#pakke:hover{
+    opacity: 1;
+}
+
+.kjop{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 2px;
+    width: 500px;
+    height: 30px;
+}
+
+.vindu{
+    padding: 30px;
+}
+
+.aTekst{ 
+    color: #F5EFED;
+    margin: 0;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+.aTekst[src=""] {
+    display:none;
+}
+
+.aTekst:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+#tilbake{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+
+#morediv{
+    margin-top: 100px ;
+    
+}
+
+#morediv a{
+    text-decoration: none;
+
+}
+
+#morediv:hover{
+    text-shadow: 4px 4px #746D75;
+}
+
+#scroll{
+    margin-top: 200px;
+    color: antiquewhite;
+}
+
+#scroll h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 550px;
+    color: antiquewhite;
+    font-size: 150px;
+}
+
+
+footer{
+    margin-top: 50px;;
+}
+
+
+
+/*popup ad*/
+
+#scam{
+    font-size: x-large;
+}
+
+#blackout {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+  }
+
+#reklame{
+    padding: 15px;
+    color: #F5EFED;
+    text-decoration: none;
+    position: absolute;
+    right: 80px;
+    top: 550px;
+    font-size: 70px;
+    border-width: 10px;
+    border-color: #F5EFED;
+    border-style: dotted;
+}
+  #box {
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+    border: 5px dotted #0000cc;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+  }
+  #blackout:target {display: block;}
+  .close {
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 20pt;
+    cursor:pointer;
+  }
+  .close:hover {background: #e6e6ff;}
+
+  #thor{
+      height: 150px;
+  }
+
+
+/*Sortering knapp*/
+
+#del{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color:#0F0A0A ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#del button{
+    width: 255px;
+    height: 50px;
+    display: block;
+    background-color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 2px;
+    text-align: center;
+    transition: all .35s;
+}
+
+#del button:hover{
+    background-color:lightblue;
+    box-shadow: 5px 5px gray 
+}

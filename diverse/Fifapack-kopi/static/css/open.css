@@ -1,0 +1,128 @@
+
+#tilbake{
+    position: absolute;
+    top: 5px;
+    left: 470px;
+    margin-top: 2px;
+    width: 500px;
+    height: 30px;
+    z-index: 2;
+}
+
+#dine{
+    display: block;
+    padding-left: 1000px;
+    margin-top: 2px;
+}
+
+body{
+    background-size: 200% ;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://i.pinimg.com/originals/19/1b/6d/191b6d669f008bfaf3950dd3e71ec2ca.jpg);
+    background-repeat:no-repeat;
+}
+
+/*https://pro2-bar-s3-cdn-cf3.myportfolio.com/ffd9b692-43f5-4c56-aba6-22db0448d8e8/e8bee42b-61d5-41ae-a825-ce328ed67685_rw_1920.png?h=5975a611676541be0ab13483b9132800*/
+
+h1{
+    padding-top: 20px;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+    color:white;
+    transition: 0.3s;
+    border-radius: 20%;
+}
+
+
+p{
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto ;
+    margin-right: auto;
+    border-radius: 60%;
+}
+
+p img{
+  max-width: 300px;
+}
+
+
+#Loader----------------------------242f3f
+
+body {
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height: 100vh;
+    background-color: #2E294E;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+  }
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#CCA43B ;  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation: loader 1s;
+    animation: frosvinn 2.5s;
+    opacity: 0;
+  }
+
+
+  .loader {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    border: 4px solid #CCA43B;
+    animation: loader 1s;
+    animation: frosvinn 4s;
+    opacity: 0;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #E5E5E5;
+    animation: loader-inner 2s;
+  }
+  
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
+
+  @keyframes frosvinn {
+    0%    { opacity: 1; }
+    20%   { opacity: 1; }
+    80%   { opacity: 1; }
+    100%  { opacity: 0; }
+ 
+  }
